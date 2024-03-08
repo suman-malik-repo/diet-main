@@ -24,3 +24,9 @@ module.exports.program = function (req, res) {
         title: 'Diet||Programs'
     })
 }
+
+module.exports.login = function(req,res){
+    return res.render('login',{
+        title: 'Login||SignUp'
+    })
+}

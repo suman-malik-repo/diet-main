@@ -12,5 +12,8 @@ router.get('/program',homeController.program);
 router.get('/gallery',homeController.gallery);
 
 
+router.get('/login',homeController.login);
+
+
 
 module.exports = router;
