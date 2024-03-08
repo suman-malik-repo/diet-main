@@ -1,0 +1,178 @@
+.toggle-switch {
+    position: relative;
+    width: 150px;
+  }
+  
+  label {
+    position: absolute;
+    width: 40%;
+    height: 2vh;
+    top: -3px;
+    left: 150px;
+    background-color: var(--light);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  input {
+    position: absolute;
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    transition: 0.3s;
+  }
+  
+  input:checked~.slider {
+    background-color: var(--dark);
+  }
+  
+  .slider::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 4px;
+    width: 20px;
+    height: 3.3vh;
+    border-radius: 50%;
+    box-shadow: inset 28px -4px 0px 0px var(--dark);
+    background-color: var(--dark);
+    transition: 0.3s;
+  }
+  
+  input:checked~.slider::before {
+    transform: translateX(40px);
+    background-color: var(--light);
+    box-shadow: none;
+  }
+  
+  .section-header {
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+  }
+  
+  section {
+    padding-top: 50px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  a,
+  a:link,
+  a:visited {
+    color: #5995fd;
+    text-decoration: none;
+  }
+  
+  .Carousel-slider {
+    height: 560px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .Carousel-slider.fullwidth {
+    height: 500px;
+  }
+  
+  .Carousel-slider.fullwidth .slider-item {
+    height: 480px;
+    line-height: 480px;
+    width: 100%
+  }
+  
+  .slider-wrapper {
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    transform-origin: 0 50%;
+    perspective: 800px !important;
+  }
+  
+  .slider-item {
+    box-shadow: 3px 1px 3px rgba(0, 0, 0, .06), 0 1px 2px rgba(0, 0, 0, .12);
+    display: none;
+    height: 320px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 320px;
+    cursor: pointer;
+  }
+  
+  .indicators {
+    top: 0;
+    left: 50%;
+    padding: 0;
+    list-style-type: none;
+    margin: 40px 0 0 -77px;
+    position: absolute;
+  }
+  
+  .indicators li {
+    color: #255f8b;
+    float: left;
+    height: 10px;
+    margin-right: 8px;
+    text-align: center;
+    width: 20px;
+  }
+  
+  .indicators li:last-child {
+    margin: 0;
+  }
+  
+  .indicators a {
+    background: #00416a;
+    border-radius: 8px;
+    display: inline-block;
+    height: 5px;
+    width: 16px;
+  }
+  
+  .indicators .active a {
+    background: #e4e5e6;
+  
+  }
+  
+  .superHero1 {
+    background-image: url(dietPhotos/IMG20230905124850-min.jpg);
+    border-radius: 10px !important;
+    background-size: cover;
+  }
+  
+  .superHero2 {
+    background: url(dietPhotos/StudentGroup3-min.jpg);
+    border-radius: 10px !important;
+    background-size: cover;
+  }
+  
+  .superHero3 {
+    background: url(dietPhotos/StudentGroup4-min.jpg);
+    border-radius: 10px !important;
+    background-size: cover;
+  }
+  
+  .superHero4 {
+    background-image: url(dietPhotos/IMG20230905124850-min.jpg);
+    border-radius: 10px !important;
+    background-size: cover;
+  }
+  
+  .superHero5 {
+    background: url(dietPhotos/StudentGroup3-min.jpg);
+    border-radius: 10px !important;
+    background-size: cover;
+  }
+  
+  .superHero6 {
+    background: url(dietPhotos/StudentGroup4-min.jpg);
+    border-radius: 10px !important;
+    background-size: cover;
+  }
