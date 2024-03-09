@@ -142,37 +142,37 @@
   }
   
   .superHero1 {
-    background-image: url(dietPhotos/IMG20230905124850-min.jpg);
+    background-image: url(../img/dietPhotos/IMG20230905124850-min.jpg);
     border-radius: 10px !important;
     background-size: cover;
   }
   
   .superHero2 {
-    background: url(dietPhotos/StudentGroup3-min.jpg);
+    background: url(../img/dietPhotos/StudentGroup3-min.jpg);
     border-radius: 10px !important;
     background-size: cover;
   }
   
   .superHero3 {
-    background: url(dietPhotos/StudentGroup4-min.jpg);
+    background: url(../img/dietPhotos/StudentGroup4-min.jpg);
     border-radius: 10px !important;
     background-size: cover;
   }
   
   .superHero4 {
-    background-image: url(dietPhotos/IMG20230905124850-min.jpg);
+    background-image: url(../img/dietPhotos/IMG20230905124850-min.jpg);
     border-radius: 10px !important;
     background-size: cover;
   }
   
   .superHero5 {
-    background: url(dietPhotos/StudentGroup3-min.jpg);
+    background: url(../img/dietPhotos/StudentGroup3-min.jpg);
     border-radius: 10px !important;
     background-size: cover;
   }
   
   .superHero6 {
-    background: url(dietPhotos/StudentGroup4-min.jpg);
+    background: url(../img/dietPhotos/StudentGroup4-min.jpg);
     border-radius: 10px !important;
     background-size: cover;
   }
